@@ -1,7 +1,7 @@
 @echo off
 
 echo:
-echo MINECRAFT SERVER LAUNCHER (CLI) v0.1
+echo MINECRAFT SERVER LAUNCHER (CLI) v0.0.1
 
 if exist boot goto match
 
