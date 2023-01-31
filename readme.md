@@ -1,6 +1,9 @@
-# MCS Launcher
+<h1 align="center">MCS Launcher</h1>
 
-This is a script for launching Minecraft servers from the Command Line Interface (CLI). It has the following functions:
+<p align="center">A simple script for launching and managing Minecraft servers from the Command Line Interface.</p>
+</br>
+  
+## Functions
 
 - Prompts the user to specify the name and extension of the server's jar file or its path and stores the information in the file "server_core.json".
 - Prompts the user to allocate the minimum and maximum RAM for the server and stores the information in the files "minram.json" and "maxram.json", respectively.
@@ -10,4 +13,6 @@ This is a script for launching Minecraft servers from the Command Line Interface
 - Asks the user if they want to close the terminal. If the user chooses to close the terminal, the script will exit.
 - If the user enters "fix", the script will remove the "boot" directory and exit.
 
+
+## Installation & Use
 This script will work from any location, but it is highly recommended that you keep it in your server's root directory.
