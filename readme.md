@@ -5,14 +5,22 @@
   
 ## Functions
 
-- Prompts the user to specify the name and extension of the server's jar file or its path and stores the information in the file "server_core.json".
-- Prompts the user to allocate the minimum and maximum RAM for the server and stores the information in the files "minram.json" and "maxram.json", respectively.
-- Reads the values from the json files and sets them as environment variables "server_core", "minram", and "maxram".
-- Previews the server launch command.
-- Asks the user if they want to make changes or start the server. If the user chooses to start the server, the script launches it with the specified parameters.
-- Asks the user if they want to close the terminal. If the user chooses to close the terminal, the script will exit.
-- If the user enters "fix", the script will remove the "boot" directory and exit.
+Initial Startup
+- [x] Prompts the user to specify the name and extension of the server's jar file or it's path.
+- [x] Prompts the user to allocate the minimum and maximum RAM for the server .
+- [x] Creates a folder named "boot" to store the config files.
+- [x] Stores the config information in the following files: server_core.json, minram.json and maxram.json.
 
+Normal Startup
+- [x] Reads the values from the json files and sets them as environment variables server_core, minram, and maxram.
+- [x] Previews the server launch command.
+- [x] Allows the user to start the server or easily make changes to the config.
+- [x] If the user chooses to start the server, the script launches it with the specified parameters.
+- [x] After the server stops, users can restart the server with the same or different parameters. 
+- [x] The terminal will wait for user input before exiting the script.
 
-## Installation & Use
-This script will work from any location, but it is highly recommended that you keep it in your server's root directory.
+Debug
+- [x] In the event of errors, the user can reset the app by entering "fix" at any Y/N prompt. 
+- [x] There are currently no known issues with this version.
+
+### This script will work from any location, but it is highly recommended that you keep it in your server's root directory.
