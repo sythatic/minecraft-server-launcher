@@ -1,1 +1,1 @@
-# MSC Launcher
+# MCS Launcher
