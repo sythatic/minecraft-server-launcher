@@ -20,6 +20,6 @@ Normal Startup
 
 Debug
 - [x] There are currently no known issues with this version.
-- [x] If Errors do occur, simply enter "R" to reset the program.
+- [x] If errors do occur, simply enter "R" to reset the program.
 
 ### This script will work from any location, but it is highly recommended that you keep it in your server's root directory.
