@@ -45,5 +45,5 @@ if /i "%modify%"=="R"  (
 )
 
 :start
-echo java -Xms%min% -Xmx%max% -jar %core% nogui
+java -Xms%min% -Xmx%max% -jar %core% nogui
 goto preview
