@@ -22,6 +22,6 @@ Normal Startup
 Issues
 - [ ] (Minor) After listing plugins or server properties, pressing enter without any input will loop the previous result.
 
-### This script will technically work from any location, but it is highly recommended that you keep it in your server's root directory.
+>This script will technically work from any location, but it is highly recommended that you keep it in your server's root directory.
 
-### If errors occur, simply enter "R" or "RX" to reset the program.
+>If errors occur, simply enter "R" or "RX" to reset the program.
