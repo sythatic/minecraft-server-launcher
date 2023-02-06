@@ -1,6 +1,6 @@
 <h1 align="center">MCS Launcher</h1>
 
-<p align="center">A simple script for launching and managing Minecraft servers from the Command Line Interface.</p>
+<p align="center">A simple script for launching and managing a Minecraft server from the command line interface.</p>
 </br>
   
 ## Functions
