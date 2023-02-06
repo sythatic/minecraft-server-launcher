@@ -15,11 +15,13 @@ Normal Startup
 - [x] Reads the values from the json files and sets them as environment variables.
 - [x] Previews the server launch command.
 - [x] Prompts the user to start the server or edit the start parameters.
+- [X] Allows user to list installed plugins and the server.properties file.
 - [x] After the server stops, users can restart the server with the same or different parameters. 
 - [x] The terminal will wait for user input before exiting the script.
 
-Debug
-- [x] There are currently no known issues with this version.
-- [x] If errors do occur, simply enter "R" to reset the program.
+Issues
+- [ ] (Minor) After listing plugins or server properties, pressing enter without any input will loop the previous result.
 
-### This script will work from any location, but it is highly recommended that you keep it in your server's root directory.
+###This script will technically work from any location, but it is highly recommended that you keep it in your server's root directory.
+
+###If errors occur, simply enter "R" or "RX" to reset the program.
