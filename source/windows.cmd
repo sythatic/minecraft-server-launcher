@@ -78,5 +78,5 @@ if /i "%modify%"=="RX" (
 
 :start
 echo:
-echo java -Xms%min% -Xmx%max% -jar %core% nogui
+java -Xms%min% -Xmx%max% -jar %core% nogui
 goto prompt
