@@ -21,6 +21,7 @@ Normal Startup
 
 Issues
 - [ ] (Minor) After listing plugins or server properties, pressing enter without any input will loop the previous result.
+- [ ] (Major) When editing the config, the script adds the new data to the json files instead of replacing.
 
 >This script will technically work from any location, but it is highly recommended that you keep it in your server's root directory.
 
