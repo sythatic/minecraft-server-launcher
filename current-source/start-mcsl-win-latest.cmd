@@ -1,20 +1,21 @@
 @echo off
 :top
 echo:
-echo   [42m MCS LAUNCHER v0.0.3 [0m
+echo   [42m MCS LAUNCHER v0.0.4 [0m
 echo   [90m By Sythatic [0m
 echo:
 
 if exist mcsl goto match
 
 :config
+rmdir mcsl /s /q
 echo:
 echo   [7m Specify the name and extension of the server's jar file [0m
 echo:
 echo    [96m-- can also be a path[0m
 echo:
 set /p core="[0m  Server File: "
-if not exist mcsl mkdir mcsl
+mkdir mcsl
 echo %core%>>mcsl/core.json
 echo:
 echo   [7m RAM/Memory allocation in MB or GB [0m
@@ -66,10 +67,6 @@ if /i "%modify%"=="C" (
 )
 if /i "%modify%"=="X" exit
 if /i "%modify%"=="R" (
-  rmdir mcsl /s /q
-  goto top
-)
-if /i "%modify%"=="RX" (
   rmdir mcsl /s /q
   exit
 ) else (
