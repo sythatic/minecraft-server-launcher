@@ -1,14 +1,15 @@
 @echo off
 :top
 echo:
-echo   [42m MCS LAUNCHER v0.0.4 [0m
+echo   [42m MCS LAUNCHER v0.0.5 [0m
 echo   [90m By Sythatic [0m
 echo:
 
 if exist mcsl goto match
+if not exist eula.txt echo eula=true>>eula.txt
 
 :config
-rmdir mcsl /s /q
+if exist rmdir mcsl /s /q
 echo:
 echo   [7m Specify the name and extension of the server's jar file [0m
 echo:
@@ -39,9 +40,9 @@ echo   [7m The following command is set to be executed [0m
 echo:
 echo   [93m java -Xms%min% -Xmx%max% -jar %core% nogui [0m
 echo:
-echo   [92mStart Server   [S]  [95mReset             [R]
-echo   [93mEdit Config    [E]  [90mServer Properties [C]
-echo   [91mClose Terminal [X]  [90mList Plugins      [P] [0m
+echo   [0mStart Server       [93m[S]    [0mEdit Config     [93m[E]
+echo   [0mServer Properties  [93m[C]    [0mList Plugins    [93m[P]
+echo   [0mReset Script       [93m[R]    [0mClose Terminal  [93m[X] [0m
 echo:
 :cmd
 set /p modify="[0m  $: "
