@@ -1,6 +1,7 @@
 <div align="center">
     
 # `MCS Launcher`
+![Static Badge](https://img.shields.io/badge/v0.0.6-RELEASE-brightgreen)
 #### A simple script for launching and managing a Minecraft server from the command line interface.
     
 <br>
