@@ -2,7 +2,7 @@
 :top
 echo:
 echo   [42m MCS Launcher [0m
-echo   [90mv0.0.6 [0m
+echo   [90mv0.0.7 [0m
 echo:
 
 if exist mcsl goto match
